@@ -1,0 +1,96 @@
+.mtop{
+    margin-top: 40px;
+}
+.protuct{
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 9%) 0 1px 3px ;
+    margin: 10px;
+}
+.protuct .rate .icon{
+    font-size: 15px;
+    color: #ffcd4e;
+    margin: 5px 5px 5px 0;
+}
+.protuct .price{
+    display: flex;
+    justify-content: space-between;
+    color: #e94560;
+}
+.protuct img{
+    width: 200px;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.protuct button{
+    color: #e94560;
+    font-size: 20px;
+    border:1px solid rgb(3 0 71 / 9%) ;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.protuct button:hover{
+    cursor: pointer;
+    background: #e94560;
+    color: #fff;
+}
+.product_title{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    left: 305px;
+    margin: 10px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.product_title label{
+    background-color: #0f3460;
+    padding: 1px 10px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50px;
+}
+.product_title .icon3{
+    font-size: 20px;
+    margin: 10px 3px;
+}
+.protuct:hover .product_title{
+    opacity: 1;
+    cursor: pointer;
+}
+.control_btn .next,
+.control_btn .prev{
+    position: absolute;
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #0f3460;
+    border-radius: 50%;
+    transition: 0.5s;
+    z-index: 5;
+}
+.control_btn .prev{
+    left: -20px;
+}
+.control_btn .next{
+    right: -20px;
+}
+.control_btn .next .look ,
+.control_btn .prev .look{
+    font-size: 20px;
+    transition: 0.5s;
+    color: #fff;
+    margin-top: 15px;
+}
+.control_btn .next:hover,
+.control_btn .prev:hover{
+    background:#e94560 ;
+    color: #fff;
+    cursor: pointer;
+}
